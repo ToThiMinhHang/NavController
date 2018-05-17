@@ -5,13 +5,19 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
+  <h2>Đây là Home của FB Minh Hang!</h2>
+  <button ion-button color="light">Light</button>
   <p>
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p>
 </ion-content>
+<ion-footer>
+
+  <button ion-button (click) = "onNavControlltoHome">Home</button>
+  <button ion-button color ="blue" (click) = "onNavControlltoAdd()">Add</button>
+  <button ion-button (click) = "onNavControlltoPresonal()">Persional</button>
+  <button ion-button (click) = "onNavControlltoNotices()">Notices</button>
+  <button ion-button (click) = "onNavControlltoGroups()">Groups</button>
+
+</ion-footer>
